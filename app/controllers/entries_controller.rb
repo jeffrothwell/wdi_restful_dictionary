@@ -18,7 +18,11 @@ class EntriesController < ApplicationController
   end
 
   def edit
-    
+
+  end
+
+  def update
+    redirect_to entry_path(params[:id])
   end
 
 end
