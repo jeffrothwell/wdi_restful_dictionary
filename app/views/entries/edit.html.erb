@@ -1,1 +1,5 @@
-<p>This is where we will edit the entry with id: <%= params[:id] %></p>
+<h2>Edit an entry</h2>
+<br>
+<%= link_to 'Show all entries', entries_path %>
+<br>
+<%= render 'entry_form', entry: @entry %>

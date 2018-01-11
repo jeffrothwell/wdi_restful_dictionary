@@ -2,4 +2,6 @@
 <p><%= @entry.definition %></p>
 <h3>Language: <%= @entry.language %></h3>
 
+<%= link_to 'Edit', edit_entry_path(params[:id]) %>
+<hr>
 <%= link_to 'Return to index', entries_path %>
